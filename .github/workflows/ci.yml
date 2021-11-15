@@ -10,6 +10,9 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.6
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
       - name: Run tests with unittest
         run: |
           python -m unittest tests/test_zad1.py
