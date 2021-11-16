@@ -1,5 +1,5 @@
 
-with open("/home/runner/work/laboratorium-6-juliadlutek/laboratorium-6-juliadlutek/tests/test_zad3.py", "r") as file:
+with open("/home/runner/work/laboratorium-6-juliadlutek/laboratorium-6-juliadlutek/src/zad3/song.txt", "r") as file:
     lines = file.readlines()
     song = file.read()
 
