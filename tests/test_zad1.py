@@ -1,7 +1,6 @@
 import unittest
 import src.zad1 as zad1
 
-
 class HammingTest(unittest.TestCase):
     def test_empty_strands(self):
         hamming = zad1.Hamming()

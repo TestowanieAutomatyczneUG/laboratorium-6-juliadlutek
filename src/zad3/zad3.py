@@ -1,9 +1,7 @@
 
-with open(r"C:\Users\48536\Desktop\testowanie\laboratorium-6-juliadlutek\src\zad3\song.txt", "r") as file:
+with open(".\src\zad3\song.txt", "r") as file:
     lines = file.readlines()
     song = file.read()
-
-
 
 
 class Song:
